@@ -26,5 +26,5 @@ function driversByName(array){
 function totalRevenue(array){
   return array.reduce(function(sum,elment){
     return elment.revenue + sum;
-  });
+  },0);
 };
