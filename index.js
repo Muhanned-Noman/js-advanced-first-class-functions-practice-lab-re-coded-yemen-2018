@@ -28,3 +28,6 @@ function totalRevenue(array){
     return elment.revenue + sum;
   },0);
 };
+function averageRevenue(array){
+  return totalRevenue(array) / array.length;
+};
